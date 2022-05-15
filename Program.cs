@@ -11,6 +11,8 @@ namespace Clases_Pruebas
             user.course="Programacion";
             user.Id=1;
 
+            user.UserInfo();
+
         }
     }
 }
