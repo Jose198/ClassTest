@@ -6,7 +6,11 @@ namespace Clases_Pruebas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            UserClass user= new UserClass();
+            user.name="Jose";
+            user.course="Programacion";
+            user.Id=1;
+
         }
     }
 }
